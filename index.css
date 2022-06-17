@@ -1,0 +1,52 @@
+.img {
+    height: 300px;
+    width: 400px;
+    margin: 30px;
+    vertical-align: center;
+}
+header {
+    display: flex;
+    background-color: rgb(184, 247, 226);
+    background-image: url(./bg-hero-desktop\ \(1\).svg);
+}
+.top-left {display: flex;
+           flex-direction: column;
+           flex: 50%;
+           margin-right: 20px;
+}
+.first-text {
+    margin: 30px;
+    vertical-align: center;
+}
+.logo {
+    height: 30px;
+    width: 50px;
+    margin: 30px;
+    vertical-align: center;
+}
+.top-right {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    
+    vertical-align: center;
+    align-items: right;
+}
+.btn1 {
+    background-color: #fa4b9d;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+    color: white;
+}
+.btn2 {
+    background-color: white;
+    color: #000;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 6px;
+    width: 33px;
+}
