@@ -4,10 +4,16 @@
     margin: 30px;
     vertical-align: center;
 }
+body {
+    background-color: #fefefa;
+}
 header {
     display: flex;
-    background-color: rgb(184, 247, 226);
+    background-color: #f0ffff;
     background-image: url(./bg-hero-desktop\ \(1\).svg);
+}
+main {
+    padding-bottom: 88px;
 }
 .top-left {display: flex;
            flex-direction: column;
@@ -17,6 +23,7 @@ header {
 .first-text {
     margin: 30px;
     vertical-align: center;
+    text-align: left;
 }
 .logo {
     height: 30px;
@@ -39,14 +46,84 @@ header {
     margin-top: 15px;
     border: none;
     color: white;
+    cursor: pointer;
 }
 .btn2 {
     background-color: white;
     color: #000;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
     margin-top: 15px;
+    margin: 20px;
     margin-bottom: 30px;
     padding: 6px;
-    width: 33px;
+    width: 75px;
+    align-items: right;
+}
+.first-right {
+    flex: 50%;
+    margin: 20px;
+    flex-direction: column;
+}
+.first-left {
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    vertical-align: auto;
+}
+.second-left {
+    display: flex;
+    flex: 50%;
+    margin: 20px;
+}
+.firsts-left {
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    vertical-align: auto;
+    border-radius: 5px;
+}
+.firsts-right {
+    flex: 50%;
+    margin: 20px;
+    flex-direction: row;
+}
+.seconds-right {
+    display: flex;
+    flex: 50%;
+}
+.first-onleft {
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.first-onright {
+    flex: 50%;
+    margin: 20px;
+}
+.second-onleft {
+    display: flex;
+    flex: 50%;
+    margin: 20px;
+}
+.container {
+    background-color: white;
+    width: 60%;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    height: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -60px;
+    margin-bottom: -60px;
+}
+footer {
+    background-color: gray;
+    color: white;
 }
