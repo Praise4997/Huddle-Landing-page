@@ -5,7 +5,8 @@
     vertical-align: center;
 }
 body {
-    background-color: #fefefa;
+    background-color: #c4f8e7;
+    text-align: left;
 }
 header {
     display: flex;
@@ -64,7 +65,6 @@ main {
 .first-right {
     flex: 50%;
     margin: 20px;
-    flex-direction: column;
 }
 .first-left {
     margin: 20px;
@@ -78,6 +78,8 @@ main {
     display: flex;
     flex: 50%;
     margin: 20px;
+    vertical-align: middle;
+    text-align: left;
 }
 .firsts-left {
     margin: 20px;
@@ -85,15 +87,17 @@ main {
     display: flex;
     vertical-align: auto;
     border-radius: 5px;
+    flex-direction: column;
 }
 .firsts-right {
     flex: 50%;
     margin: 20px;
-    flex-direction: row;
+    flex-direction: column;
 }
 .seconds-right {
     display: flex;
     flex: 50%;
+    flex-direction: column;
 }
 .first-onleft {
     margin: 20px;
@@ -112,7 +116,7 @@ main {
     margin: 20px;
 }
 .container {
-    background-color: white;
+    background-color: #f0ffff;
     width: 60%;
     text-align: center;
     vertical-align: middle;
@@ -121,9 +125,45 @@ main {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: -60px;
-    margin-bottom: -60px;
+    margin-bottom: 0cm;
 }
 footer {
-    background-color: gray;
+    background-color: #05445E;
     color: white;
+    vertical-align: middle;
+}
+.location {
+    flex-direction: row;
+    display: flex;
+    margin: 30px;
+    flex: 33%;
+}
+.phone {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    flex: 33%;
+}
+.mail {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    flex: 33%;
+}
+.about {
+    flex-direction:column; 
+    display: flex;
+    vertical-align: auto;
+    text-align: center;
+    flex: 33%;
+    margin: 30px;
+    margin-top: 0%;
+}
+.social {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    flex: 33%;
+    margin: 30px;
+    margin-top: 0%;
 }
