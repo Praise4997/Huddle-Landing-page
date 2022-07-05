@@ -30,6 +30,10 @@ main {
     vertical-align: center;
     text-align: left;
 }
+.first-text p {
+    width: 80%;
+    margin: 0px auto;
+}
 .logo {
     height: 30px;
     width: 50px;
@@ -71,7 +75,7 @@ main {
 }
 .grow-together1{
     width: 50%;
-    margin: auto 100px;
+    margin: auto 10px;
 }
 .grow-together {
     margin: 20px;
