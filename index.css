@@ -8,6 +8,7 @@ body {
     background-color: #c4f8e7;
     text-align: left;
     scroll-snap-type: mandatory;
+    max-width: 100%;
 }
 header {
     display: flex;
@@ -133,29 +134,6 @@ main {
     margin-top: -60px;
     margin-bottom: 0cm;
 }
-footer {
-    background-color: #05445E;
-    color: white;
-    vertical-align: middle;
-}
-.location {
-    flex-direction: row;
-    display: flex;
-    margin: 30px;
-    flex: 33%;
-}
-.phone {
-    display: flex;
-    flex-direction: row;
-    margin: 30px;
-    flex: 33%;
-}
-.mail {
-    display: flex;
-    flex-direction: row;
-    margin: 30px;
-    flex: 33%;
-}
 .about {
     flex-direction:column; 
     display: flex;
@@ -165,11 +143,93 @@ footer {
     margin: 30px;
     margin-top: 0%;
 }
-.social {
-    text-align: right;
+footer {
     display: flex;
-    flex-direction: column;
-    flex: 33%;
-    margin: 30px;
-    margin-top: 0%;
+    gap: 10px;
+    padding: 100px;
+    background-color: hsl(192, 100%, 8%);
+    margin-top: -140px;
+    padding-top: 150px;
+    z-index: -1;
+    position: relative;
+    color: #fff;
+    font-family: sans-serif;
+    bottom: 0;
 }
+footer a {
+    color: #fff !important;
+    text-decoration: none;
+}
+.footer1 {
+    width: 30%;
+}
+.footer2 {
+    width: 25%;
+}
+.footer3 {
+    width: 25%;
+}
+.footer4 {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer4 i {
+    color: white;
+}
+.footer4 ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.footer4 ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 120px;
+}
+footer ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer1 p img {
+    margin: auto;
+    margin-right: 12px;
+}
+.footer1 p {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.footer2, 
+.footer3,
+.footer4 {margin-top: 100px;}
+@media screen and (max-width:1440px) {
+    footer {
+        flex-direction: column;
+    }
+    .grow-together1 {
+        width: 100%;
+    }
+    .grow-together2 {
+        width: 100%;
+    }
+    .grow-together {
+        flex-direction: column-reverse;
+    }
+    .footer1,
+    .footer2 {
+        margin-top: 0px;
+    }
+    .footer4 {width:100%;
+              margin-left: auto;
+              margin-right: auto;
+    }
+    .footer4, .footer3, .footer2, .footer1 {
+        width: 100%;
+        display: flexbox;
+    }
+}
+
