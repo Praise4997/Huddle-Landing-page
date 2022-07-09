@@ -281,10 +281,10 @@ button:hover{
 }
 @media screen and (max-width: 1000px) {
 
-  .header1 {
+  .top-header {
     margin: 40px 15px;
 }
-  .header2 {
+  .buttom-header {
     flex-direction: column;
   }
   footer {
@@ -373,10 +373,18 @@ button:hover{
   }
 }
 @media all and (max-width: 480px){
-  .header1 button{
+  .top-header button{
   padding: 12px 20px;
   }
-  .header1 label{
+  .top-header {
+    display: flex;
+    flex-direction: row;
+  }
+  .buttom-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .top-header label{
     width: 60%;
   }
   .get-started h2 {
