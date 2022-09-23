@@ -1,3 +1,3 @@
 # praise.github.io
-Link to my published github page
-https://praise4997.github.io/praise.github.io/
+Site is live at
+https://praise4997.github.io/Huddle-Landing-page/
